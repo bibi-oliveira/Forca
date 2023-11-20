@@ -1,20 +1,17 @@
-require 'csv'
-require_relative 'settings.rb'
-require_relative 'record.rb'
+require_relative 'Game.rb'
 
-class Jogo < Config
-include Save_Load
+class Forca
+include Game
   def initialize
-    @vidas = 6
-    @letras_corretas = []
-    @letras_erradas = []
-    @dicionario = File.open('dicionario.txt')
+    @lives = 10
+    @wrong_letters = []
+    @right_letters = []
   end
 
-  def jogar
-    schema
+  def play
+    play_game
   end
 end
 
-a = Jogo.new
-a.jogar
+a = Forca.new
+a.play
