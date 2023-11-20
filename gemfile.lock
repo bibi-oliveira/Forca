@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    unidecode (1.0.0)
+    colorize (1.1.0)
 
 PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  unidecode
+  colorize
 
 BUNDLED WITH
-   2.4.20
+   2.4.22
