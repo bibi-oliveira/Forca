@@ -1,3 +1,3 @@
 # Forca
 
-Um código básico de um jogo da forca em ruby, apenas
+Jogo da forca produzido em ruby, com banco de dados em CSV para armazenar partidas
